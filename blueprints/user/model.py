@@ -5,9 +5,9 @@ import datetime
 class Users(db.Model):
     __tablename__="user"
     id = db.Column(db.Integer, autoincrement=True, primary_key=True)
-    username = db.Column(db.String(255), unique=True, nullable=False)
+    username = db.Column(db.String(190), unique=True, nullable=False)
     fullname = db.Column(db.String(255), nullable=False)
-    email = db.Column(db.String(255), unique=True, nullable=False)
+    email = db.Column(db.String(190), unique=True, nullable=False)
     password = db.Column(db.String(255), nullable=False)
     address = db.Column(db.String(255), nullable=False)
     phone = db.Column(db.String(255),nullable=False)

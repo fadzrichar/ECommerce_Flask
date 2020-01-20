@@ -157,3 +157,61 @@ Traceback (most recent call last):
     raise DecodeError('Not enough segments')
 jwt.exceptions.DecodeError: Not enough segments
 [2020-01-17 20:47:24,897]{/home/alta6/fullstack4_fadzri/ECommerce/blueprints/__init__.py:95} ERROR - REQUEST_LOG	{"status_code": 500, "method": "POST", "code": "500 INTERNAL SERVER ERROR", "uri": "/carts?", "request": {}, "response": {"message": "Internal Server Error"}}
+[2020-01-20 15:05:16,806]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:73} INFO - REQUEST_LOG	{"status_code": 200, "method": "POST", "request": {}, "uri": "/login?", "code": "200 OK", "response": {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1Nzk1MDc1MTYsIm5iZiI6MTU3OTUwNzUxNiwiZXhwIjoxNTgyMDk5NTE2LCJmcmVzaCI6ZmFsc2UsImp0aSI6ImJiZTgwOTczLTg1YTgtNDI4Yy04NmE3LWVlMjllY2Y5OGZhYSIsInR5cGUiOiJhY2Nlc3MiLCJpZGVudGl0eSI6ImFkbWluIiwidXNlcl9jbGFpbXMiOnsidXNlcm5hbWUiOiJhZG1pbiJ9fQ.cFr-EbJsVHi8x5FR6BpUej4zwQ2ovBmyBR2Ft_hOLmc"}}
+[2020-01-20 16:42:53,478]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:73} INFO - REQUEST_LOG	{"response": {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE1Nzk1MTMzNzMsImp0aSI6IjY1MjdjZjMxLTc5Y2YtNGRjYi05YTUwLTNjZWQ1MzYyNWY2NCIsImZyZXNoIjpmYWxzZSwiaWF0IjoxNTc5NTEzMzczLCJ0eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTgyMTA1MzczLCJpZGVudGl0eSI6ImFkbWluIiwidXNlcl9jbGFpbXMiOnsidXNlcm5hbWUiOiJhZG1pbiJ9fQ.nY1xDjvop5CgdGM8oHmKPLj51GpQpJZ2nhlFzQDxCiA"}, "code": "200 OK", "uri": "/login?", "method": "POST", "status_code": 200, "request": {}}
+[2020-01-20 17:11:33,457]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:73} INFO - REQUEST_LOG	{"status_code": 200, "method": "POST", "code": "200 OK", "uri": "/login?", "response": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NsYWltcyI6eyJ1c2VybmFtZSI6ImFkbWluIn0sImlkZW50aXR5IjoiYWRtaW4iLCJpYXQiOjE1Nzk1MTUwOTMsImp0aSI6ImNjMmMzZjI4LWZiZjEtNGMyZC04YzkwLTBhY2Y3YTNlNDBjMSIsInR5cGUiOiJhY2Nlc3MiLCJuYmYiOjE1Nzk1MTUwOTMsImZyZXNoIjpmYWxzZSwiZXhwIjoxNTgyMTA3MDkzfQ.NwA3cNKGx80PhCNw2aemqdVxXyT98aEI8xGFLr4V4M4"}, "request": {}}
+[2020-01-20 17:15:16,991]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:73} INFO - REQUEST_LOG	{"status_code": 200, "method": "POST", "code": "200 OK", "uri": "/login?", "response": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NsYWltcyI6eyJ1c2VybmFtZSI6ImFkbWluIn0sImlkZW50aXR5IjoiYWRtaW4iLCJpYXQiOjE1Nzk1MTUzMTYsImp0aSI6IjM3Mjc0OTk0LWE0NWYtNDI5ZS05MmI3LTNjNjExZDQ2M2Y5NiIsInR5cGUiOiJhY2Nlc3MiLCJuYmYiOjE1Nzk1MTUzMTYsImZyZXNoIjpmYWxzZSwiZXhwIjoxNTgyMTA3MzE2fQ.F5Wquow6GB8s3rP5iKAI2-booQSGHhVZnuEQj4-5gOY"}, "request": {}}
+[2020-01-20 18:16:50,945]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"status_code": 404, "method": "GET", "code": "404 NOT FOUND", "uri": "/?", "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "request": {}}
+[2020-01-20 18:25:17,002]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"status_code": 404, "method": "GET", "code": "404 NOT FOUND", "uri": "/?", "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "request": {}}
+[2020-01-20 18:25:21,973]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"status_code": 404, "method": "GET", "code": "404 NOT FOUND", "uri": "/?", "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "request": {}}
+[2020-01-20 18:38:43,331]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"status_code": 404, "method": "GET", "code": "404 NOT FOUND", "uri": "/user?", "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "request": {}}
+[2020-01-20 18:38:51,671]{/home/admin/alta/lib/python3.5/site-packages/flask/app.py:1891} ERROR - Exception on /login [GET]
+Traceback (most recent call last):
+  File "/home/admin/alta/lib/python3.5/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/alta/lib/python3.5/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/admin/alta/lib/python3.5/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_jwt_extended/view_decorators.py", line 107, in wrapper
+    verify_jwt_in_request()
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_jwt_extended/view_decorators.py", line 32, in verify_jwt_in_request
+    jwt_data, jwt_header = _decode_jwt_from_request(request_type='access')
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_jwt_extended/view_decorators.py", line 314, in _decode_jwt_from_request
+    raise NoAuthorizationError(errors[0])
+flask_jwt_extended.exceptions.NoAuthorizationError: Missing Authorization Header
+[2020-01-20 18:38:51,676]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:95} ERROR - REQUEST_LOG	{"status_code": 500, "method": "GET", "code": "500 INTERNAL SERVER ERROR", "uri": "/login?", "response": {"message": "Internal Server Error"}, "request": {}}
+[2020-01-20 18:39:00,253]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"status_code": 404, "method": "GET", "code": "404 NOT FOUND", "uri": "/product?", "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "request": {}}
+[2020-01-20 18:39:23,563]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"status_code": 404, "method": "GET", "code": "404 NOT FOUND", "uri": "/users?", "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "request": {}}
+[2020-01-20 18:39:28,089]{/home/admin/alta/lib/python3.5/site-packages/flask/app.py:1891} ERROR - Exception on /users/list [GET]
+Traceback (most recent call last):
+  File "/home/admin/alta/lib/python3.5/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/admin/alta/lib/python3.5/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_restful/__init__.py", line 458, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/admin/alta/lib/python3.5/site-packages/flask/views.py", line 89, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_restful/__init__.py", line 573, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_jwt_extended/view_decorators.py", line 107, in wrapper
+    verify_jwt_in_request()
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_jwt_extended/view_decorators.py", line 32, in verify_jwt_in_request
+    jwt_data, jwt_header = _decode_jwt_from_request(request_type='access')
+  File "/home/admin/alta/lib/python3.5/site-packages/flask_jwt_extended/view_decorators.py", line 314, in _decode_jwt_from_request
+    raise NoAuthorizationError(errors[0])
+flask_jwt_extended.exceptions.NoAuthorizationError: Missing Authorization Header
+[2020-01-20 18:39:28,093]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:95} ERROR - REQUEST_LOG	{"status_code": 500, "method": "GET", "code": "500 INTERNAL SERVER ERROR", "uri": "/users/list?", "response": {"message": "Internal Server Error"}, "request": {}}
+[2020-01-20 18:39:33,867]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"status_code": 404, "method": "GET", "code": "404 NOT FOUND", "uri": "/?", "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "request": {}}
+[2020-01-20 18:39:42,559]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:73} INFO - REQUEST_LOG	{"status_code": 200, "method": "POST", "code": "200 OK", "uri": "/login?", "response": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NsYWltcyI6eyJ1c2VybmFtZSI6ImFkbWluIn0sImlkZW50aXR5IjoiYWRtaW4iLCJpYXQiOjE1Nzk1MjAzODIsImp0aSI6ImM2YWExZjA1LTkxM2ItNDA0Zi04YmYzLWJkYmY1MzUxMjI0YiIsInR5cGUiOiJhY2Nlc3MiLCJuYmYiOjE1Nzk1MjAzODIsImZyZXNoIjpmYWxzZSwiZXhwIjoxNTgyMTEyMzgyfQ.beLkn5ZJfqlYn458EPzZGH5eLr74IyHDfdgzJBmO0_E"}, "request": {}}
+[2020-01-20 18:40:31,614]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:73} INFO - REQUEST_LOG	{"status_code": 200, "method": "POST", "code": "200 OK", "uri": "/login?", "response": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NsYWltcyI6eyJ1c2VybmFtZSI6ImFkbWluIn0sImlkZW50aXR5IjoiYWRtaW4iLCJpYXQiOjE1Nzk1MjA0MzEsImp0aSI6IjI5N2RkNzIyLWU4OTMtNGNiZC05ZDhkLWFiMGJhMTA2MTQ2MiIsInR5cGUiOiJhY2Nlc3MiLCJuYmYiOjE1Nzk1MjA0MzEsImZyZXNoIjpmYWxzZSwiZXhwIjoxNTgyMTEyNDMxfQ.lIsPS7lyhPFNfoUypeqmoetekajstQdDND9sL1c4sqo"}, "request": {}}
+[2020-01-20 18:40:57,448]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:73} INFO - REQUEST_LOG	{"status_code": 200, "method": "POST", "code": "200 OK", "uri": "/login?", "response": {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NsYWltcyI6eyJ1c2VybmFtZSI6ImFkbWluIn0sImlkZW50aXR5IjoiYWRtaW4iLCJpYXQiOjE1Nzk1MjA0NTcsImp0aSI6IjI4NzNmZTJjLTBiMzAtNDJmZC04MGFiLTc0NGMwMzY4YjM1OSIsInR5cGUiOiJhY2Nlc3MiLCJuYmYiOjE1Nzk1MjA0NTcsImZyZXNoIjpmYWxzZSwiZXhwIjoxNTgyMTEyNDU3fQ.o7jOhUd7pJDmr738wUI_T9AogU6F3YwWwfaZmKRKxyM"}, "request": {}}
+[2020-01-20 20:01:50,375]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"uri": "/?", "request": {}, "method": "GET", "status_code": 404, "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "code": "404 NOT FOUND"}
+[2020-01-20 20:01:51,526]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"uri": "/?", "request": {}, "method": "GET", "status_code": 404, "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "code": "404 NOT FOUND"}
+[2020-01-20 20:02:07,704]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:73} INFO - REQUEST_LOG	{"uri": "/login?", "request": {}, "method": "POST", "status_code": 200, "response": {"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1ODIxMTczMjcsInR5cGUiOiJhY2Nlc3MiLCJuYmYiOjE1Nzk1MjUzMjcsInVzZXJfY2xhaW1zIjp7InVzZXJuYW1lIjoiYWRtaW4ifSwiaWRlbnRpdHkiOiJhZG1pbiIsImZyZXNoIjpmYWxzZSwianRpIjoiMDdkODdhMTctMmY3Zi00YmE2LWEwMTAtZmI2OTVkMWY0MDJmIiwiaWF0IjoxNTc5NTI1MzI3fQ.UYMvrMYIeE9-oqPoPYPiZ560xps2L2_qCcMZ3XxesP8"}, "code": "200 OK"}
+[2020-01-20 20:23:33,314]{/home/admin/alta/ECommerce_Flask/blueprints/__init__.py:84} WARNING - REQUEST_LOG	{"uri": "/?", "request": {}, "method": "GET", "status_code": 404, "response": {"message": "The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again."}, "code": "404 NOT FOUND"}

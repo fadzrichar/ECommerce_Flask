@@ -15,9 +15,9 @@ CORS(app)
 try:
 	env = os.environ.get('FLASK_ENV', 'development')
 	if env == 'testing':
-		app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:alta123@0.0.0.0:3306/ECommerce_test'
+		app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:alta1234@0.0.0.0:3306/ECommerce_test'
 	else:
-		app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:alta123@0.0.0.0:3306/ECommerce'
+		app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:alta1234@ecommerce.czyclfjzsfbe.ap-southeast-1.rds.amazonaws.com:3306/ecommerce'
 except Exception as e:
 	raise e
 
