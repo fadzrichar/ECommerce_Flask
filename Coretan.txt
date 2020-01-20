@@ -1,0 +1,14 @@
+Buat Ecoomerce Mainan (tentuin nama nya apa???)
+
+list kategori
+1. Gundam
+2. Digimon
+3. Marvel
+4. DC
+5. One Piece
+6. Naruto
+7. NXEDGE
+8. Nendroid
+9. Others
+
+
