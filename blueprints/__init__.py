@@ -23,8 +23,8 @@ try:
     if env == 'testing':
         app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://{uname}:{pwd}@0.0.0.0:3306/ECommerce_test".format(uname=uname, pwd=pwd)
     else:
+        app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:alta1234@ecommerce.czyclfjzsfbe.ap-southeast-1.rds.amazonaws.com:3306/ecommerce'
         # app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://{uname}:{pwd}@{db_endpoint}:3306/{db_dev}".format(uname=uname, pwd=pwd, db_dev=db_dev, db_endpoint=db_endpoint)
-		app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:alta1234@ecommerce.czyclfjzsfbe.ap-southeast-1.rds.amazonaws.com:3306/ecommerce'
 except Exception as e:
     raise e
 
