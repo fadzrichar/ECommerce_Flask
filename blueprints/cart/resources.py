@@ -19,24 +19,6 @@ class cartResource(Resource):
     def options(self, id=None):
         return {"status":"ok"},200
 
-    @jwt_required
-    def delete(self,id):
-        qry = Carts.query.get(id)
-
-        if qry is None:
-            return {'status': 'NOT_FOUND'}, 404
-        
-        # Hard Delete
-        db.session.delete(qry)
-        db.session.commit()
-
-        # Soft Delete
-        # qry.status = False,
-        # print('liat qry', qry)
-        # db.session.commit()
-        return {'status':'Deleted'}, 200
-
-
     # add to carts
     @jwt_required
     def post(self):
@@ -70,6 +52,25 @@ class cartResource(Resource):
         db.session.commit()
         # return {"status":"Carts added"}, 200
         return marshal(cart, Carts.response_fields), 200
+
+    # Delete cart by id
+    @jwt_required
+    def delete(self, id=None):
+        claims = get_jwt_claims()
+        cart = Carts.query.filter_by(user_id=claims["id"])
+        cart = cart.filter_by(status=True)
+        qry = TransactionDetails.query.get(id)
+        if qry is None:
+            return {'status':'CART NOT_FOUND'}, 404
+
+        cart = cart.filter_by(id=qry.cart_id).first()
+        if cart is None:
+            return {'status':'Access denied'}, 400
+
+        #hard delete
+        db.session.delete(qry)
+        db.session.commit()
+        return {"message":'Deleted'}, 200   
 
     @jwt_required
     def get(self):

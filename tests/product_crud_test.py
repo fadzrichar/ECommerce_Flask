@@ -17,6 +17,7 @@ class TestProductsCrud():
 				"url_photo2": "https://images-na.ssl-images-amazon.com/images/I/51z0wD77tGL._SL1000_.jpg",
 				"url_photo3": "https://images-na.ssl-images-amazon.com/images/I/51DdOvafhGL._SL1000_.jpg",
 				"url_photo4": "https://images-na.ssl-images-amazon.com/images/I/61Y%2BMTEJbNL._SL1000_.jpg",
+				"weight":1000,
 				"description": "Based on the One Piece: Stampede movie, Monkey D. Luffy joins the DXF series! This figure stands about 6 inches tall and is made of PVC and ABS."
 		}
 
@@ -37,6 +38,7 @@ class TestProductsCrud():
 			"url_photo2": "https://images-na.ssl-images-amazon.com/images/I/911pWXbAgOL._SL1500_.jpg",
 			"url_photo3": "https://images-na.ssl-images-amazon.com/images/I/918CX-Ve9tL._SL1500_.jpg",
 			"url_photo4": "https://images-na.ssl-images-amazon.com/images/I/91RjaSVQNhL._SL1500_.jpg",
+			"weight":2000,
 			"description": "Tamashii Nations introduces a new sculpt and repaint of Omegamon (Omnimon) as he appears in Digimon Adventure: Our War Game! This set includes cape attachment pieces, the Transcendent Sword, the Supreme Cannon, and display stand."
 		}
 
@@ -56,10 +58,11 @@ class TestProductsCrud():
 			"url_photo2": "https://images-na.ssl-images-amazon.com/images/I/911pWXbAgOL._SL1500_.jpg",
 			"url_photo3": "https://images-na.ssl-images-amazon.com/images/I/918CX-Ve9tL._SL1500_.jpg",
 			"url_photo4": "https://images-na.ssl-images-amazon.com/images/I/91RjaSVQNhL._SL1500_.jpg",
+			"weight": 3000,
 			"description": "Tamashii Nations introduces a new sculpt and repaint of Omegamon (Omnimon) as he appears in Digimon Adventure: Our War Game! This set includes cape attachment pieces, the Transcendent Sword, the Supreme Cannon, and display stand."
 		}
 
-		res = client.put('/products/list/1]2', json = data, headers={'Authorization': 'Bearer ' + token})
+		res = client.put('/products/list/1', json = data, headers={'Authorization': 'Bearer ' + token})
 		res_json = json.loads(res.data)
 
 		assert res.status_code == 200
